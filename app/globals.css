@@ -15,6 +15,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity)); /* dark background */
+  color: white;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
